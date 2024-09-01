@@ -6,11 +6,11 @@
 
 
 class Solution:
-    def isMonotonic(self, nums: list[int]) -> bool:
+    def isMonotonic(self, nums: list[int]):
 
         increasing = decreasing = static= False
         if len(nums) == 1 or len(nums) == 2:
-            print(' single element or pair is always monotonic  :)')
+            print('Single element or pair is always Monotonic  :)')
 
             return True        
 
